@@ -24,13 +24,13 @@ $$
 \frac{\partial^2 u}{\partial t^2} = \frac{a^2}{r}\frac{\partial}{\partial r}\left(r\frac{\partial u}{\partial r}\right) + Ar\sin(\omega t)
 $$
 
-$$
+```math
 \begin{cases}
 \dfrac{\partial^2 u}{\partial t^2} = a^2 \left(\dfrac{\partial^2 u}{\partial r^2} + \dfrac{1}{r}\dfrac{\partial u}{\partial r}\right) + Ar\sin(\omega t) \\[10pt]
 u(1, \varphi, t) = 0 \\[6pt]
 \dfrac{\partial u(r, \varphi, 0)}{\partial t} = 0, \quad u(r, \varphi, 0) = 0
 \end{cases}
-$$
+```
 
 $$
 u(r, t) = R(r) \cdot T(t)
